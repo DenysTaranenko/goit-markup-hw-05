@@ -316,6 +316,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
+  background-color: #fff;
 }
 .team-name {
   font-style: normal;
@@ -325,13 +326,11 @@ img {
   color: var(--main-text-color);
   letter-spacing: 0.03em;
   margin-bottom: 10px;
-  margin-top: 30px;
 }
 .team-soc-list {
   display: flex;
   justify-content: center;
   column-gap: 10px;
-  margin-bottom: 30px;
 }
 .team-soc-item {
   list-style-type: none;
@@ -347,13 +346,15 @@ img {
 .team-icon {
   fill: #afb1b8;
 }
-.team-soc-link:hover .team-icon {
+.team-soc-link:hover .team-icon,
+.team-soc-link:focus .team-icon {
   fill: #ffff;
 }
-.team-soc-link:hover {
+.team-soc-link:hover,
+.team-soc-link:focus {
   background-color: #2196f3;
 }
-.team.block {
+.team-block {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -392,10 +393,12 @@ img {
 .clients-icon {
   fill: #afb1b8;
 }
-.clients-link:hover .clients-icon {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
   fill: #2196f3;
 }
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
   border-color: #2196f3;
 }
 /* Portfolio Main Classes */
@@ -414,7 +417,7 @@ img {
 .projects-bord {
   border: 1px solid #eeeeee;
   border-top: 0;
-  padding: 20px 24px 4px;
+  padding: 20px 24px;
 }
 .portfolio-nav-btn {
   border: 0;
@@ -443,8 +446,9 @@ img {
   width: 370px;
   flex-basis: calc((100% - 2 * 30px) / 3);
 }
-.projects-item:hover,
-.projects-item:focus {
+.projects-link:hover,
+.projects-link:focus {
+  display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -503,7 +507,6 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  padding: 0;
 }
 .footer-logo {
   font-family: "Raleway";
@@ -600,11 +603,12 @@ img {
 .footer-con-icon {
   fill: #ffff;
 }
-.footer-con-link:hover {
+.footer-con-link:hover,
+.footer-con-link:focus {
   background-color: #2196f3;
 }
 .footer-con-block {
   margin-left: 70px;
-  max-width: 206px;
-  padding: 0;
+  width: 206px;
+  height: 80px;
 }
