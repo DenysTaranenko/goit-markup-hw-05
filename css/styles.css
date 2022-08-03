@@ -98,6 +98,8 @@ img {
   padding-bottom: 32px;
   display: block;
   position: relative;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover::after,
 .header-link:focus::after {
@@ -144,6 +146,8 @@ img {
   color: var(--secondary-text-color);
   display: flex;
   align-items: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-phone {
   font-weight: 500;
@@ -157,6 +161,8 @@ img {
   color: var(--secondary-text-color);
   display: flex;
   align-items: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-mail-link:hover,
 .header-mail-link:focus,
@@ -208,6 +214,8 @@ img {
   width: 200px;
   height: 50px;
   margin-top: 30px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-btn:hover,
 .order-btn:focus {
@@ -342,6 +350,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icon {
   fill: #afb1b8;
@@ -389,6 +399,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-icon {
   fill: #afb1b8;
@@ -427,6 +439,8 @@ img {
   font-family: inherit;
   padding: 6px 22px;
   margin-bottom: 50px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-nav-btn:hover,
 .portfolio-nav-btn:focus {
@@ -457,6 +471,8 @@ img {
 }
 .projects-link {
   text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .projects-text-hover {
   position: relative;
@@ -536,6 +552,8 @@ img {
   color: #ffffff;
   text-decoration: none;
   letter-spacing: 0.03em;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .map-link:hover,
 .map-link:focus {
@@ -547,6 +565,8 @@ img {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.03em;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-mail:hover,
 .footer-mail:focus {
@@ -559,6 +579,8 @@ img {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.03em;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-phone:hover,
 .footer-phone:focus {
@@ -599,6 +621,8 @@ img {
   align-items: center;
   justify-content: center;
   background: rgba(255, 255, 255, 0.1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-con-icon {
   fill: #ffff;
