@@ -91,7 +91,7 @@ img {
   top: 8px;
   background-color: #ffffff;
 }
-.modal-close:hover:hover .back-icon {
+.modal-close:hover .back-icon {
   fill: #2196f3;
 }
 .modal-close:hover,
