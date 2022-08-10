@@ -73,11 +73,6 @@ img {
   transform: translate(-50%, -50%);
   transition: transform 300ms linear;
 }
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
 .modal-close {
   width: 30px;
   height: 30px;
@@ -90,6 +85,11 @@ img {
   right: 8px;
   top: 8px;
   background-color: #ffffff;
+}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 .modal-close:hover .back-icon {
   fill: #2196f3;
