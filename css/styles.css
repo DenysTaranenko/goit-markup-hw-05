@@ -392,6 +392,7 @@ img {
 }
 .team-icon {
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-soc-link:hover .team-icon,
 .team-soc-link:focus .team-icon {
@@ -454,6 +455,7 @@ img {
   column-gap: 8px;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .portfolio-nav-item {
   list-style-type: none;
@@ -474,8 +476,9 @@ img {
   border-radius: 4px;
   font-family: inherit;
   padding: 6px 22px;
-  margin-bottom: 50px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-nav-btn:hover,
 .portfolio-nav-btn:focus {
